@@ -14,7 +14,6 @@ int print_char(va_list args)
 	return (1);
 }
 
-
 /**
  *print_str - prints string
  *@args: arguments
@@ -47,4 +46,3 @@ int print_pct(va_list args)
 	(void)args;
 	return (write(1, "%", 1));
 }
-
